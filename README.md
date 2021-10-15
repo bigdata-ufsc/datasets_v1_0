@@ -45,9 +45,9 @@ This respository presents the datasets used in research experiments.
 ## Authors
 
 The authors of this data organization are:
+- Tarlis Tortelli Portela
 - Carlos Andres Ferrero
 - Camila Leite da Silva
 - Lucas MayPetry
-- Tarlis Tortelli Portela
 - Luis Otavio Alvares
 - Vania Bogorny
