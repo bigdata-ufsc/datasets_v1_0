@@ -1,0 +1,100 @@
+The UCI Trajectory Dataset (UBER Dataset. Downloaded from: https://archive.ics.uci.edu/ml/datasets/GPS+Trajectories) contains trajectories of users of the GO!Track app using a variety of transportation means in the Northeast of Brazil
+
+Go!Track: GPS Trajectories Data Set
+
+Abstract: The dataset has been feed by Android app called Go!Track. It is available at Goolge Play Store([Web Link]).
+
+Data Set Characteristics:  
+
+Multivariate
+
+Number of Instances:
+
+163
+
+Area:
+
+Computer
+
+Attribute Characteristics:
+
+Real
+
+Number of Attributes:
+
+15
+
+Date Donated
+
+2016-02-29
+
+Associated Tasks:
+
+Classification, Regression
+
+Missing Values?
+
+Yes
+
+Number of Web Hits:
+
+120610
+
+
+Source:
+
+M. O. Cruz
+H. T. Macedo
+R. Barreto
+A. P. GuimarÃ£es
+
+
+Data Set Information:
+
+The dataset is composed by two tables. The first table go_track_tracks presents general attributes and each instance has one trajectory that is represented by the table
+go_track_trackspoints.
+
+
+Attribute Information:
+
+(1) go_track_tracks.csv: a list of trajectories
+id_android - it represents the device used to capture the instance;
+speed - it represents the average speed (Km/H)
+distance - it represent the total distance (Km)
+rating - it is an evaluation parameter. Evaluation the traffic is a way to verify the volunteers perception about the traffic during the travel, in other words,
+if volunteers move to some place and face traffic jam, maybe they will evaluate 'bad'. (3- good, 2- normal, 1-bad).
+rating_bus - it is other evaluation parameter. (1 - The amount of people inside the bus is little, 2 - The bus is not crowded, 3- The bus is crowded.
+rating_weather - it is another evaluation parameter. ( 2- sunny, 1- raining).
+car_or_bus - (1 - car, 2-bus)
+linha - information about the bus that does the pathway
+
+
+
+(2) go_track_trackspoints.csv: localization points of each trajectory
+id: unique key to identify each point
+latitude: latitude from where the point is
+longitude: longitude from where the point is
+track_id: identify the trajectory which the point belong
+time: datetime when the point was collected (GMT-3)
+
+
+Relevant Papers:
+
+Provide references to papers that have cited this data set in the past (if any).
+
+
+
+Citation Request:
+
+We have some papers that used this dataset. The first was presented in BRACIS (4th Brazilian Conference on Intelligent System).
+The paper was accepted but not published yet.
+The other paper was submitted to AT&T (IJCAI-16).
+The last paper is about the dataset.
+
+Publications:
+1 - CRUZ, M. O.; MACEDO, H.; GUIMARÃ£ES, A. P. Grouping similar trajectories for
+carpooling purposes. In: Brazilian Conference on Intelligent Systems. [S.l.: s.n.], 2015. p.
+234â€“239. ISBN 9781509000166.
+
+Link:
+https://archive.ics.uci.edu/ml/datasets/GPS+Trajectories

@@ -1,0 +1,7 @@
+Foursquare: Dataset from the Foursquare social media with
+multiple aspect trajectories from users in New York, USA
+[27]. Trajectories are split in weeks and we select 193 users
+with at least 10 check-ins in each trajectory, totalling 3, 079
+trajectories. The points are enriched with semantic information
+of weekday, POI category, weather condition, and with the
+numerical information of the price and rating of the POIs.

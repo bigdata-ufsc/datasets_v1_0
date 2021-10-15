@@ -1,0 +1,4 @@
+Gowalla : Multiple aspect trajectories from users around
+the world on the Gowalla social media [26], it has the same
+configuration as the Brightkite dataset, but with a total of
+5, 329 trajectories, and 98, 158 check-ins.
