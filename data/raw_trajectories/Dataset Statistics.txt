@@ -188,51 +188,6 @@ dtype: int64
 
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
---------------------------------------------------------------------
-Descriptive Statistics for Vessels/run1
-Number of Classes:     => 3
-Number of Attributes:  => 5
-Number of Trajs:       => 38 total / 29 train + 9 test
-Number of Points:      => 76455 total / 56937 train + 19518 test
-Avg Size of Trajs:     => 2011.97  / ± 1989.9736842105262
-Longest Size:          => 3872 train / 3579 test
-Shortest Size:         => 22 train / 1191 test
-Train / Test hold-out: => 29 - 76.32% .. 9 - 23.68%
-
---------------------------------------------------------------------
-Attributes: 
-['time', 'lat', 'lon', 'tid', 'label']
-
-Features Selection (by Variance): 
-              mean        Std.Dev           Var
-time  9.669206e+08  619515.408359  3.837993e+11
-tid   3.022903e+03      11.091658  1.230249e+02
-lon  -1.220931e+02       0.198472  3.939114e-02
-lat   3.684603e+01       0.158971  2.527187e-02
-
-Classes: 
-['ventana' 'NewHorizon' 'PointLobos'] 
-
-
---------------------------------------------------------------------
-Statistics from TRAIN:
-Number of Samples: 29
-Samples by Class:
-[NewHorizon]    11
-[PointLobos]     9
-[ventana]        9
-dtype: int64
-
-
---------------------------------------------------------------------
-Statistics from TEST.:
-Number of Samples: 9
-Samples by Class:
-[PointLobos]    3
-[ventana]       3
-[NewHorizon]    3
-dtype: int64
-
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 # -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -417,49 +372,4 @@ Number of Samples: 154
 Samples by Class:
 [T]    110
 [B]     44
-dtype: int64
-
---------------------------------------------------------------------
-Descriptive Statistics for Vessels
-Number of Classes:     => 3
-Number of Attributes:  => 5
-Number of Trajs:       => 38
-Number of Points:      => 76455 - 49992 / 26463
-Avg Size of Trajs:     => 2011.97
-Longest Size:          => 3872 / 3374
-Shortest Size:         => 22 / 706
-Train / Test hold-out: => 25 - 65.79% .. 13 - 34.21%
-
---------------------------------------------------------------------
-Attributes: 
-['time', 'lat', 'lon', 'tid', 'label']
-
-Features Selection (by Variance): 
-              mean        Std.Dev           Var
-time  9.668231e+08  729122.268013  5.316193e+11
-tid   3.022844e+03      11.882695  1.411984e+02
-lon  -1.220965e+02       0.208369  4.341751e-02
-lat   3.684633e+01       0.161358  2.603644e-02
-
-Classes: 
-['ventana' 'NewHorizon' 'PointLobos'] 
-
-
---------------------------------------------------------------------
-Statistics from TRAIN:
-Number of Samples: 25
-Samples by Class:
-[NewHorizon]    9
-[PointLobos]    8
-[ventana]       8
-dtype: int64
-
-
---------------------------------------------------------------------
-Statistics from TEST.:
-Number of Samples: 13
-Samples by Class:
-[NewHorizon]    5
-[PointLobos]    4
-[ventana]       4
 dtype: int64
